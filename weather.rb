@@ -5,7 +5,7 @@ require "dotenv"
 Dotenv.load
 api_key = ENV["OPEN_WEATHER_API_KEY"]
 
-puts "Welcome to Ruby Wether CLI!"
+puts "Welcome to Ruby Weather CLI!"
 print "Enter city name: "
 city_name = gets.chomp
 puts
